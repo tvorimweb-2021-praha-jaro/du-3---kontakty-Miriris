@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box; 
+}
+
+body {
+    padding: 2rem;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    height: auto;
+    padding: 2rem;
+    background-color: rgb(211, 209, 209);
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.item {
+    box-sizing: border-box;
+    order: 4;
+    width: 22%;
+    height: auto;
+    flex-grow: 0;
+    padding: 2rem 2rem;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.foto {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.odkaz {
+    margin: 2px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 750;
+}
+
+p {
+    font-weight: bold;
+}
+
+
